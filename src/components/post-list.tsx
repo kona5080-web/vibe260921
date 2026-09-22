@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { Post } from '@/types'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Eye, MessageSquare } from 'lucide-react'
+import { Eye } from 'lucide-react'
 
 interface PostListProps {
   posts: Post[]
